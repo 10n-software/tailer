@@ -1,0 +1,20 @@
+{
+  "name": "tenn/tailer",
+  "description": "Tail log files and aggregate important data",
+  "type": "project",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Kevin Schroeder",
+      "email": "kschroeder@10n.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TenN\\Tailer\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.0.0"
+  }
+}
